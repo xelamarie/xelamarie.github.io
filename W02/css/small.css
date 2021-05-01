@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Lora|Montserrat");
+
+body {
+   max-width: 960px;
+   background-color: #011627;
+   align-items: center;
+   font-family: "Montserrat", Garamond, sans-serif;
+   margin: 0 auto;
+}
+
+header {
+   background-color: #2ec4b6;
+   color: white;
+   text-align: center;
+   min-width: 226px;
+   padding: 5px 15px;
+   margin: 10px 0;
+}
+
+h1 {
+   font-size: 40px;
+}
+
+h2 {
+   text-align: center;
+   font-family: "Lora", Arial, serif;
+   font-size: 30px;
+}
+
+main {
+   padding: 10px;
+   max-width: 960px;
+   min-width: 236px;
+   margin: 0 auto;
+   background-color: #fdfffc;
+   border-radius: 25px;
+}
+
+.grid {
+   padding: 1em;
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   grid-gap: 1em;
+}
+
+
+h3 {
+   color: #A3320B;
+   font-family: "Lora", Arial, serif;
+   font-size: 24px;
+   padding: 10px;
+   margin: auto;
+   text-align: center;
+   border-top: 2px dotted;
+   border-bottom: 2px dotted;
+   border-color: #ff9f1c;
+   background: rgba(255, 159, 28, 0.2);
+}
+
+p {
+   color: #011627;
+   font-family: "Lora", Arial, serif;
+   border-right: 2px dotted;
+   border-color: #2ec4b6;
+   padding: 5px;
+}
+
+img {
+   width: 100%;
+   border: 1px solid #ccc;
+   padding: 4px;
+   box-sizing: border-box;
+   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+   grid-column: 1 / 4;
+}
+
+.paragraph-a {
+   font-size: 18px;
+}
+
+.paragraph-c {
+   font-size: 15px;
+}
+
+
+
+
