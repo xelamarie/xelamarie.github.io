@@ -124,7 +124,8 @@ a:visited {
    color: #fff5ee;
 }
 
-.color-details li, .scenarios li {
+.color-details li,
+.scenarios li {
    padding: 5px;
    font-family: "Lora", Arial, serif;
 
