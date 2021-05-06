@@ -31,7 +31,6 @@ header {
 }
 
 img {
-   float: left;
    width: 80px;
 }
 
@@ -42,8 +41,7 @@ nav {
 
 nav ul {
    list-style: none;
-   display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(4em, 1fr));
+   display: block;
 }
 
 nav ul li {
