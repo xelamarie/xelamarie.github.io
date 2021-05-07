@@ -41,7 +41,9 @@ nav {
 
 nav ul {
    list-style: none;
-   display: block;
+   display: grid;
+   grid-template-columns: 1fr;
+   padding: 0;
 }
 
 nav ul li {
