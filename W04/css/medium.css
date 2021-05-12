@@ -1,6 +1,7 @@
 @media only screen and (min-width: 32.5em) {
 
-   nav ul, nav ul.hide {
+   nav ul,
+   nav ul.hide {
       grid-template-columns: repeat(2, 1fr);
       display: grid;
    }

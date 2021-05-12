@@ -6,6 +6,6 @@ document.querySelector(".today-date").innerHTML = new Intl.DateTimeFormat("en-US
    day: "numeric",
 }).format(new Date());
 
-function toggleMenu () {
+function toggleMenu() {
    document.getElementById("primaryNav").classList.toggle("hide");
 }
