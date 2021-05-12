@@ -1,0 +1,123 @@
+html {
+   background-color: #86A5AE;
+}
+
+.wrap {
+   max-width: 960px;
+   margin: 0 auto;
+   padding: 1em;
+   box-sizing: border-box;
+}
+
+main.wrap {
+   background-color: #FFF5EE;
+}
+
+header .wrap {
+   background-color: #3A405A;
+   border-right: 16px solid #FFF5EE;
+   border-left: 16px solid #FFF5EE;
+   border-top: 16px solid #FFF5EE;
+   text-align: center;
+}
+
+img {
+   width: 80px;
+   padding: 10px;
+}
+
+h1,
+h2 {
+   font-family: "Montserrat", Garamond, sans-serif;
+}
+
+h1 {
+   color: #FFF5EE;
+   margin-bottom: 0;
+}
+
+.motto {
+   color: #FFF5EE;
+   font-family: "Lora", Arial, serif;
+   font-size: 18px;
+}
+
+h2 {
+   color: #3A405A;
+   text-align: center;
+   padding-bottom: 1em;
+}
+
+nav {
+   line-height: 2em;
+   font-family: "Montserrat", Garamond, sans-serif;
+}
+
+nav ul {
+   list-style: none;
+   display: grid;
+   grid-template-columns: 1fr;
+   margin: 0;
+   padding: 0;
+}
+
+nav .wrap {
+   border-right: 16px solid #FFF5EE;
+   border-left: 16px solid #FFF5EE;
+   padding: 10px 0;
+   background-color: #3A405A;
+   text-align: center;
+}
+
+nav ul li {
+   text-align: center;
+}
+
+nav a {
+   font-size: 1em;
+   display: block;
+   height: 100%;
+}
+
+nav a:link,
+nav a:visited {
+   color: #F3D39B;
+   text-decoration: none;
+}
+
+nav a:hover {
+   color: #3A405A;
+   background-color: #86A5AE;
+}
+
+.placeholder {
+   font-family: "Lora", Arial, serif;
+   color: #1F1F1F;
+   padding: 10px;
+   margin: 10px;
+   border-top: .5px dotted #3A405A;
+   border-bottom: .5px dotted #3A405A;
+   background-color: #ccc;
+}
+
+footer {
+   text-align: center;
+   font-family: "Lora", Arial, serif;
+   line-height: 1.5;
+   color: #FFF5EE;
+}
+
+footer .wrap {
+   background-color: #3A405A;
+}
+
+button {
+   background-color: transparent;
+   border: none;
+   font-size: 1.6rem;
+   color: #F3D39B;
+}
+
+nav ul.hide {
+   display: none;
+}
