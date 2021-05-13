@@ -27,6 +27,10 @@ h2 {
    font-size: 1rem;
 }
 
+li {
+   padding: .5rem;
+}
+
 footer {
    background-color: #96616b;
    padding: 5px 0px 55px 25px;
