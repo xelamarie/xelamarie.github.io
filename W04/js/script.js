@@ -1,5 +1,5 @@
 document.querySelector(".current-year").innerHTML = new Date().getFullYear();
-document.querySelector(".today-date").innerHTML = new Intl.DateTimeFormat("en-US", {
+document.querySelector(".today-date").innerHTML = new Intl.DateTimeFormat("en-GB", {
    weekday: "long",
    year: "numeric",
    month: "long",
