@@ -19,4 +19,20 @@
       display: none;
    }
 
+   .article-img {
+      float: right;
+   }
+
+   .map-contact {
+      display: flex;
+   }
+
+   .map-img {
+      width: 100%;
+   }
+
+   .contact {
+      margin-left: 20px;
+   }
+
 }

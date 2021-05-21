@@ -10,4 +10,17 @@
       display: none;
    }
 
+   .article-img {
+      float: right;
+      width: 360px;
+   }
+
+   .map-contact {
+      display: flex;
+   }
+
+   .map-img {
+      width: 364px;
+   }
+
 }

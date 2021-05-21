@@ -2,6 +2,21 @@ html {
    background-color: #86A5AE;
 }
 
+body {
+   min-width: 350px;
+}
+
+.banner {
+   background-color: #F3D39B;
+   margin: auto;
+   max-width: 960px;
+   padding: 20px 0;
+   text-align: center;
+   font-size: 20px;
+   font-family: "Lora", Arial, serif;
+   display: none;
+}
+
 .wrap {
    max-width: 960px;
    margin: 0 auto;
@@ -24,16 +39,6 @@ header .wrap {
 #logo {
    width: 80px;
    padding: 10px;
-}
-
-#banner {
-   background-color: #F3D39B;
-   margin: auto;
-   max-width: 960px;
-   padding: 20px 0;
-   text-align: center;
-   font-size: 20px;
-   font-family: "Lora", Arial, serif;
 }
 
 h1,
@@ -95,19 +100,35 @@ nav a:hover {
    background-color: #86A5AE;
 }
 
+nav ul.hide {
+   display: none;
+}
+
+nav ul li.active {
+   background-color: #ccc;
+}
+
+nav ul li.active a {
+   color: #3A405A;
+}
+
+button {
+   background-color: transparent;
+   border: none;
+   font-size: 1em;
+   color: #F3D39B;
+}
+
 h2,
 h3 {
    color: #3A405A;
 }
 
-.banner-img {
-   width: 100%;
-}
-
-.summary {
-   font-family: "Montserrat", Garamond, sans-serif;
-   border-bottom: 1px solid;
-   margin-bottom: 5px;
+.hero-box {
+   position: relative;
+   background: url('../images/oneida-academy.jpg');
+   background-position: center center;
+   height: 333px;
 }
 
 .weather-summary {
@@ -118,8 +139,14 @@ h3 {
    font-size: 18px;
    font-family: "Lora", Arial, serif;
    padding: 20px;
-   top: 300px;
-   left: 35rem;
+   top: 38px;
+   left: 38px;
+}
+
+.summary {
+   font-family: "Montserrat", Garamond, sans-serif;
+   border-bottom: 1px solid;
+   margin-bottom: 5px;
 }
 
 .weather-summary li {
@@ -161,16 +188,17 @@ h4 {
 }
 
 .article-img {
-   float: right;
+   float: none;
+   width: 280px;
    border: 2px solid #ccc;
-   padding: 10px 0 20px 10px;
+   padding: 10px;
    margin: 0 10px;
    box-sizing: border-box;
    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
 .map-contact {
-   display: flex;
+   display: block;
    justify-content: space-around;
    font-family: "Lora", Arial, serif;
    font-size: 19px;
@@ -182,6 +210,8 @@ h4 {
 
 .map-img {
    border: 2px solid #FFF5EE;
+   width: 200px;
+   margin-right: 10px;
 }
 
 .contact p:first-of-type {
@@ -194,7 +224,6 @@ h4 {
    margin: 5px 0;
 }
 
-
 footer {
    text-align: center;
    font-family: "Lora", Arial, serif;
@@ -204,23 +233,4 @@ footer {
 
 footer .wrap {
    background-color: #3A405A;
-}
-
-button {
-   background-color: transparent;
-   border: none;
-   font-size: 1em;
-   color: #F3D39B;
-}
-
-nav ul.hide {
-   display: none;
-}
-
-nav ul li.active {
-   background-color: #ccc;
-}
-
-nav ul li.active a {
-   color: #3A405A;
 }
