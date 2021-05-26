@@ -1,0 +1,25 @@
+@media only screen and (min-width: 64em) {
+
+   nav ul,
+   nav ul.hide {
+      grid-template-columns: repeat(auto-fit, minmax(4em, 1fr));
+   }
+
+   nav button {
+      display: none;
+   }
+
+   .article-img {
+      float: right;
+      width: 360px;
+   }
+
+   .map-contact {
+      display: flex;
+   }
+
+   .map-img {
+      width: 364px;
+   }
+
+}
