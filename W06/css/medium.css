@@ -28,14 +28,16 @@
 
    .article-img {
       float: right;
+      margin: 0 10px;
+   }
+
+   .article-img img {
+      width: 100%;
+      height: auto;
    }
 
    .map-contact {
       display: flex;
-   }
-
-   .map-img {
-      width: 100%;
    }
 
    .contact {

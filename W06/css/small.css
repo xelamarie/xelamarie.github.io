@@ -187,12 +187,12 @@ h4 {
 
 .article-img {
    float: none;
-   width: 280px;
-   border: 2px solid #ccc;
    padding: 10px;
-   margin: 0 10px;
-   box-sizing: border-box;
-   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.article-img img {
+   width: 280px;
+   height: auto;
 }
 
 .map-contact {
@@ -203,12 +203,16 @@ h4 {
    padding: 20px;
    margin-top: 30px;
    background-color: rgba(58, 64, 90, 0.3);
-   ;
 }
 
 .map-img {
-   width: 200px;
+   width: 100%;
+   height: auto;
    margin-right: 10px;
+}
+
+.map-img img {
+   width: 100%;
 }
 
 .contact h4 {
