@@ -31,6 +31,10 @@
       float: right;
    }
 
+   .picture-gallery {
+      grid-template-columns: repeat(2, 1fr);
+   }
+
    .map-contact {
       display: flex;
    }
