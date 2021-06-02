@@ -9,6 +9,14 @@
       width: 360px;
    }
 
+   .picture-gallery {
+      grid-template-columns: repeat(3, 1fr);
+   }
+
+   .picture-gallery img {
+      width: 300px;
+   }
+
    .map-contact {
       display: flex;
    }

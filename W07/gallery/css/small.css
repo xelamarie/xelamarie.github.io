@@ -206,6 +206,10 @@ h4 {
    ;
 }
 
+.picture-gallery {
+   display: grid;
+}
+
 .map-img {
    border: 2px solid #FFF5EE;
    width: 200px;
