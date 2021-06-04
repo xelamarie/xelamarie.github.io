@@ -208,6 +208,13 @@ h4 {
 
 .picture-gallery {
    display: grid;
+   grid-template-columns: 1fr;
+   grid-gap: 18px;
+}
+
+.picture-gallery img {
+   width: 100%;
+   display: block;
 }
 
 .map-img {

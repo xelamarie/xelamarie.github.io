@@ -10,8 +10,7 @@ const loadImages = (image) => {
 
 // Set optional parameters
 const imgOptions = {
-   threshold: 1,
-   rootMargin: '0px 0px 150px 0px'
+   threshold: 0.75,
 };
 
 // Check if Intersection Observer is supported 

@@ -14,18 +14,3 @@ document.querySelector(".today-date").innerHTML = new Intl.DateTimeFormat(
 document.querySelector(".menu-button").addEventListener("click", () => {
    document.querySelector(".primary-nav").classList.toggle("hide");
 });
-
-// Display Pancake Breakfast banner on Fridays
-const dayOfWeek = new Date().getDay(); // Sunday is 0
-if (dayOfWeek === 5) {
-   document.querySelector(".banner").style.display = "block";
-}
-
-// Run Web Font Loader
-WebFont.load({
-   google: {
-      families: [
-         'Lora', 'Montserrat'
-      ]
-   }
-});
