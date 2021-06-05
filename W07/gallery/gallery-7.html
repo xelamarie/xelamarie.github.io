@@ -17,6 +17,7 @@
    <link rel="stylesheet" href="css/large.css" />
    <script src="js/scripts.js" defer></script>
    <script src="js/lazyload.js" defer></script>
+   <script src="js/gallery.js" defer></script>
 </head>
 
 <body>
@@ -48,63 +49,73 @@
    <main class="wrap">
       <h2>Weather Gallery</h2>
       <div class="picture-gallery">
-         <picture>
-            <img src='https://via.placeholder.com/400x300?text=I+am+a+placeholder!' data-src='images/clearskies.jpg'
-               alt='Clear Skies'>
-         </picture>
-         <picture>
-            <img src='https://via.placeholder.com/400x300?text=I+am+a+placeholder!' data-src='images/snow.jpg'
-               alt='Snowy Trees'>
-         </picture>
-         <picture>
-            <img src='https://via.placeholder.com/400x300?text=I+am+a+placeholder!' data-src='images/cloudy.jpg'
-               alt='Cloudy Sky'>
-         </picture>
-         <picture>
-            <img src='https://via.placeholder.com/400x300?text=I+am+a+placeholder!' data-src='images/lightning.jpg'
-               alt='Lightning in the Sky'>
-         </picture>
-         <picture>
-            <img src='https://via.placeholder.com/400x300?text=I+am+a+placeholder!' data-src='images/wind.jpg'
-               alt='Grass Blowing in Wind'>
-         </picture>
-         <picture>
-            <img src='https://via.placeholder.com/400x300?text=I+am+a+placeholder!' data-src='images/colorskies.jpg'
-               alt='Colorful Skies'>
-         </picture>
-         <picture>
-            <img src='https://via.placeholder.com/400x300?text=I+am+a+placeholder!' data-src='images/snowy.jpg'
-               alt='Snowy Mountains'>
-         </picture>
-         <picture>
-            <img src='https://via.placeholder.com/400x300?text=I+am+a+placeholder!' data-src='images/storm.jpg'
-               alt='Stormy Skies'>
-         </picture>
-         <picture>
-            <img src='https://via.placeholder.com/400x300?text=I+am+a+placeholder!' data-src='images/grass.jpg'
-               alt='Green Grass'>
-         </picture>
+         <figure>
+            <picture>
+               <img src='https://via.placeholder.com/400x300?text=I+am+a+placeholder!' data-src='images/clearskies.jpg'
+                  alt='Clear Skies'>
+            </picture>
+            <figcaption>A glimpse of the sky</figcaption>
+         </figure>
+         <figure>
+            <picture>
+               <img src='https://via.placeholder.com/400x300?text=I+am+a+placeholder!' data-src='images/snow.jpg'
+                  alt='Snowy Trees'>
+            </picture>
+            <figcaption>A winter wonderland</figcaption>
+         </figure>
+         <figure>
+            <picture>
+               <img src='https://via.placeholder.com/400x300?text=I+am+a+placeholder!' data-src='images/cloudy.jpg'
+                  alt='Cloudy Sky'>
+            </picture>
+            <figcaption>A serene scene</figcaption>
+         </figure>
+         <figure>
+            <picture>
+               <img src='https://via.placeholder.com/400x300?text=I+am+a+placeholder!' data-src='images/lightning.jpg'
+                  alt='Lightning in the Sky'>
+            </picture>
+            <figcaption>A strike of lightning</figcaption>
+         </figure>
+         <figure>
+            <picture>
+               <img src='https://via.placeholder.com/400x300?text=I+am+a+placeholder!' data-src='images/wind.jpg'
+                  alt='Grass Blowing in Wind'>
+            </picture>
+            <figcaption>A windy field</figcaption>
+         </figure>
+         <figure>
+            <picture>
+               <img src='https://via.placeholder.com/400x300?text=I+am+a+placeholder!' data-src='images/colorskies.jpg'
+                  alt='Colorful Skies'>
+            </picture>
+            <figcaption>A colorful sky</figcaption>
+         </figure>
+         <figure>
+            <picture>
+               <img src='https://via.placeholder.com/400x300?text=I+am+a+placeholder!' data-src='images/snowy.jpg'
+                  alt='Snowy Mountains'>
+            </picture>
+            <figcaption>A snowy landscape</figcaption>
+         </figure>
+         <figure>
+            <picture>
+               <img src='https://via.placeholder.com/400x300?text=I+am+a+placeholder!' data-src='images/storm.jpg'
+                  alt='Stormy Skies'>
+            </picture>
+            <figcaption>A brewing storm</figcaption>
+         </figure>
+         <figure>
+            <picture>
+               <img src='https://via.placeholder.com/400x300?text=I+am+a+placeholder!' data-src='images/grass.jpg'
+                  alt='Green Grass'>
+            </picture>
+            <figcaption>A green morning</figcaption>
+         </figure>
       </div>
 
-      <section class="map-contact">
-         <div class="map">
-            <img class="map-img" src="images/map.jpg" alt="Map of Preston">
-         </div>
-         <div class="contact">
-            <h4>Contact Winds in the East</h4>
-            <p>155 N 3rd St</p>
-            <p>Preston, ID 83263</p>
-            <br>
-            <p>208-555-1234</p>
-            <p>windsintheeast@gmail.com</p>
-            <br>
-            <div class="social">
-               <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="Instagram Logo"></a>
-               <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="Facebook Logo"></a>
-               <a href="https://twitter.com/"><img src="images/twitter.png" alt="Twitter Logo"></a>
-            </div>
-         </div>
-      </section>
+      <p class="last-visit">Days since last visit: <span></span></p>
+
    </main>
 
    <footer>

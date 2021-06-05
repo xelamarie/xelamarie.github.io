@@ -217,6 +217,26 @@ h4 {
    display: block;
 }
 
+figure {
+   border: 1px #cccccc solid;
+   padding: 4px;
+   margin: auto;
+}
+
+figcaption {
+   background-color: #3A405A;
+   color: #FFF5EE;
+   font-family: "Lora", Arial, serif;
+   padding: 5px;
+   text-align: center;
+}
+
+.last-visit {
+   font-size: 20px;
+   font-family: "Montserrat", Garamond, sans-serif;
+   text-align: center;
+}
+
 .map-img {
    border: 2px solid #FFF5EE;
    width: 200px;
