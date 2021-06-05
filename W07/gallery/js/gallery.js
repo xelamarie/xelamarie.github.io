@@ -1,4 +1,6 @@
 //  Use local storage to display the amount of time in days between user visits
+
+// Get difference in days
 function getNumberOfDays(start, end) {
 
    // One day in milliseconds
