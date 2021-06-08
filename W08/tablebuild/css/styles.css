@@ -4,6 +4,7 @@ table {
    text-align: center;
    box-shadow: 5px 5px 5px #628ca6;
    background-color: #e7f0ed;
+   margin: 10px;
 }
 
 table caption {
