@@ -1,0 +1,50 @@
+@media only screen and (min-width: 32.5em) {
+
+   nav ul,
+   nav ul.hide {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+   }
+
+   nav ul li a {
+      padding: 0 20px;
+      white-space: nowrap;
+   }
+
+   .motto {
+      padding-left: 50px;
+   }
+
+   header .wrap {
+      display: flex;
+      text-align: left;
+   }
+
+   nav button {
+      display: none;
+   }
+
+   .article-img {
+      float: right;
+   }
+
+   .picture-gallery {
+      grid-template-columns: 1fr 1fr;
+   }
+
+   .map-contact {
+      display: flex;
+   }
+
+   .map-img {
+      width: 100%;
+   }
+
+   .contact {
+      margin-left: 20px;
+   }
+
+}
