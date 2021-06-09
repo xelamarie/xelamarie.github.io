@@ -237,6 +237,86 @@ figcaption {
    text-align: center;
 }
 
+.storm,
+.confirmation {
+   color: #3A405A;
+   font-size: 28px;
+}
+
+form fieldset {
+   width: 100%;
+   margin: 2rem 0;
+   border: 1px solid #3A405A;
+   border-radius: 10px;
+   padding: 0 2% 1rem 2%;
+   font-family: "Lora", Arial, serif;
+   box-sizing: border-box;
+}
+
+form legend {
+   color: #3A405A;
+   font-size: 1.25rem;
+   margin: 0 1rem;
+   padding: 0 .5rem;
+}
+
+form label {
+   display: block;
+   padding-top: 1rem;
+   color: #3A405A;
+   font-size: .9rem;
+   line-height: 2;
+}
+
+form label.radio {
+   padding-top: 0;
+}
+
+form label.storm-info input,
+form label.storm-info select,
+form label.user-info input,
+form label.user-info select {
+   -webkit-appearance: none;
+   display: block;
+   font-size: 1rem;
+   border: solid 1px #999;
+   border-radius: 4px;
+   padding: .75rem;
+   color: #555;
+   width: 100%;
+   box-sizing: border-box;
+   background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.storm-info textarea {
+   width: 100%;
+   box-sizing: border-box;
+}
+
+form button.submitBtn {
+   border: none;
+   display: block;
+   background-color: #3A405A;
+   color: white;
+   border-radius: 1rem;
+   padding: .75rem 1.5rem;
+   margin: 0 auto;
+   width: 96%;
+   max-width: 20rem;
+}
+
+form label.user-info input:required {
+   border: #DA2C38 solid 2px;
+}
+
+form label.user-info input:required:valid {
+   border: #91CB3E solid 2px;
+}
+
+.stay-safe {
+   font-family: "Lora", Arial, serif;
+}
+
 .map-img {
    border: 2px solid #FFF5EE;
    width: 200px;

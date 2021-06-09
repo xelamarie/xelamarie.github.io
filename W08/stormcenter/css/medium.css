@@ -47,4 +47,10 @@
       margin-left: 20px;
    }
 
+   form div.inner-form {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+   }
+
 }

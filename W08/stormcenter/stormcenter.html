@@ -15,7 +15,7 @@
    <link rel="stylesheet" href="css/medium.css" />
    <link rel="stylesheet" href="css/large.css" />
    <script src="js/scripts.js" defer></script>
-   <script src="js/preston.js" defer></script>
+   <script src="js/stormcenter.js" defer></script>
 </head>
 
 <body>
@@ -44,6 +44,76 @@
       </div>
    </nav>
 
+
+   <main class="wrap">
+      <h1 class="storm">Report a Storm or Unusual Weather Event</h1>
+      <form action="thanks.html">
+         <div class="inner-form">
+            <fieldset name="user">
+               <legend>User Information</legend>
+               <label class="user-info">Full Name* <input type="text" name="fullname" placeholder="Full Name"
+                     pattern="[A-Za-z\s]{5,}" required></label>
+               <label class="user-info">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
+               <label class="user-info">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+               <label class="user-info">Zip Code* <input type="number" name="zip" placeholder="12345" required></label>
+            </fieldset>
+
+            <fieldset name="storm">
+               <legend>Storm Information</legend>
+               <label class="storm-info">Storm Date <input type="date" name="stormdate"></label>
+
+               <label class="storm-info">Storm Type <input list="storm-type" name="stormtype"></label>
+               <datalist id="storm-type">
+                  <option value="Flash Flood"></option>
+                  <option value="Hail"></option>
+                  <option value="Hurricane"></option>
+                  <option value="Thunderstorm"></option>
+                  <option value="Tornado"></option>
+               </datalist>
+
+               <label>Storm Severity
+                  <br>
+                  <input type="range" name="rating" value="5" min="1" max="10" step="1" list="tickmarks"
+                     oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                  <span id="ratingvalue">5</span>
+               </label>
+               <datalist id="tickmarks">
+                  <option value="0">
+                  <option value="1">
+                  <option value="2">
+                  <option value="3">
+                  <option value="4">
+                  <option value="5">
+                  <option value="6">
+                  <option value="7">
+                  <option value="8">
+                  <option value="9">
+                  <option value="10">
+               </datalist>
+
+               <label class="storm-info">Storm Region
+                  <select name="region">
+                     <option value="select" selected disabled>Select Region...</option>
+                     <option value="preston">Preston</option>
+                     <option value="ssprings">Soda Springs</option>
+                     <option value="fhaven">Fish Haven</option>
+                  </select>
+               </label>
+
+               <label class="storm-info">Are You In Danger? </label>
+               <label class="radio"><input type="radio" name="danger" value="yes"> Yes</label>
+               <label class="radio"><input type="radio" name="danger" value="maybe"> Maybe</label>
+               <label class="radio"><input type="radio" name="danger" value="no"> No</label>
+
+
+               <label class="storm-info">Additional Information or Comments: <br><textarea name="comment" rows="5"
+                     cols="50"></textarea></label>
+            </fieldset>
+         </div>
+
+         <button type="submit" name="submit" class="submitBtn">Report Storm</button>
+      </form>
+   </main>
 
    <footer>
       <p class="wrap">
