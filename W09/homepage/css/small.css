@@ -317,6 +317,11 @@ form label.user-info input:required:valid {
    font-family: "Lora", Arial, serif;
 }
 
+.wireframes li {
+   font-family: "Lora", Arial, serif;
+   padding: 15px;
+}
+
 .map-img {
    border: 2px solid #FFF5EE;
    width: 200px;
