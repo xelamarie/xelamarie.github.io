@@ -17,6 +17,19 @@
       box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.5);
    }
 
+   .town-info {
+      grid-template-columns: repeat(3, 1fr);
+   }
+
+   .town-info section {
+      display: block;
+   }
+
+   .town-info .info {
+      max-width: auto;
+      margin: 0;
+   }
+
    .map-contact {
       display: flex;
    }

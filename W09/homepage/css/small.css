@@ -322,6 +322,48 @@ form label.user-info input:required:valid {
    padding: 15px;
 }
 
+.hero-img img {
+   width: 100%;
+   height: auto;
+}
+
+.town-info section {
+   margin-top: 15px;
+   padding: 20px;
+   border-radius: 5px;
+   box-shadow: 0 0 5px black;
+}
+
+.town-info {
+   font-family: "Lora", Arial, serif;
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-gap: 15px;
+   text-align: center;
+   color: #3A405A;
+}
+
+.town-info img {
+   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+   width: 100%;
+   max-width: 300px;
+   height: auto;
+}
+
+.town-info section:nth-child(2) p:nth-child(3) {
+   padding-top: 22px;
+}
+
+.activities {
+   color: #3A405A;
+   background-color: rgba(243, 211, 155, 0.4);
+   font-family: "Lora", Arial, serif;
+   border: dashed #F3D39B;
+   border-radius: 5px;
+   padding: 10px;
+   margin-top: 20px;
+}
+
 .map-img {
    border: 2px solid #FFF5EE;
    width: 200px;

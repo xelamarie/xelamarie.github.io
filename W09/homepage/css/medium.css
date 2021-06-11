@@ -35,6 +35,25 @@
       grid-template-columns: 1fr 1fr;
    }
 
+   .town-info {
+      grid-template-columns: 1fr;
+   }
+
+   .town-info section {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+   }
+
+   .town-info section:nth-child(odd) {
+      flex-direction: row-reverse;
+   }
+
+   .town-info .info {
+      max-width: 500px;
+      margin: 0 20px;
+   }
+
    .map-contact {
       display: flex;
    }
@@ -52,5 +71,4 @@
       justify-content: space-between;
       gap: 20px;
    }
-
 }
