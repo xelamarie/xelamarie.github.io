@@ -49,7 +49,7 @@
       flex-direction: row-reverse;
    }
 
-   .town-info .info {
+   .info {
       max-width: 500px;
       margin: 0 20px;
    }
