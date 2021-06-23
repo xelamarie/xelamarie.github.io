@@ -399,6 +399,10 @@ footer {
    color: #FFF5EE;
 }
 
+footer a {
+   color: #F3D39B;
+}
+
 footer .wrap {
    background-color: #3A405A;
 }
