@@ -17,6 +17,9 @@
    <link rel="stylesheet" href="css/large.css" />
    <script src="js/scripts.js" defer></script>
    <script src="js/preston.js" defer></script>
+   <script src="js/weatherapi.js" defer></script>
+   <script src="js/windchill.js" defer></script>
+
 </head>
 
 <body>
@@ -40,7 +43,7 @@
          <button class="menu-button">&#9776; MENU</button>
          <ul class="primary-nav hide">
             <li><a href="/">HOME</a></li>
-            <li class="active"><a href="preston-5.html">PRESTON</a></li>
+            <li class="active"><a href="preston-10.html">PRESTON</a></li>
             <li><a href="#">SODA SPRINGS</a></li>
             <li><a href="#">FISH HAVEN</a></li>
             <li><a href="stormcenter.html">STORM CENTER</a></li>
@@ -54,47 +57,17 @@
       <div class="hero-box">
          <ul class="weather-summary">
             <li class="summary">WEATHER SUMMARY</li>
-            <li>Currently: Partly Cloudy</li>
-            <li>High: 69&#176; F</li>
-            <li>Low: 44&#176; F</li>
-            <li>Humidty: 12%</li>
-            <li>Wind Speed: 4 mph</li>
+            <li>Currently: <span id="currently"></span></li>
+            <li>Temp: <span id="current-temp"></span>&deg; F</li>
+            <li>Humidity: <span id="humidity"></span>%</li>
+            <li>Wind Speed: <span id="wind-speed"></span> mph</li>
+            <li>Wind Chill: <span id="wind-chill"></span></li>
          </ul>
       </div>
 
       <div class="forecast">
          <h3>5-Day Forecast</h3>
          <div class="flex-container">
-            <div class="flex-item">
-               <h4>Fri</h4>
-               <img class="sunny-img" src="images/sunny.png" alt="Sunny">
-               <p>H: 77&#176;</p>
-               <p>L: 46&#176;</p>
-            </div>
-            <div class="flex-item">
-               <h4>Sat</h4>
-               <img class="sunny-img" src="images/sunny.png" alt="Sunny">
-               <p>H: 75&#176;</p>
-               <p>L: 43&#176;</p>
-            </div>
-            <div class="flex-item">
-               <h4>Sun</h4>
-               <img class="partly-img" src="images/partly.png" alt="Partly Sunny">
-               <p>H: 67&#176;</p>
-               <p>L: 41&#176;</p>
-            </div>
-            <div class="flex-item">
-               <h4>Mon</h4>
-               <img class="cloudy-img" src="images/cloudy.png" alt="Cloudy">
-               <p>H: 64&#176;</p>
-               <p>L: 39&#176;</p>
-            </div>
-            <div class="flex-item">
-               <h4>Tue</h4>
-               <img class="windy-img" src="images/windy.png" alt="Windy">
-               <p>H: 62&#176;</p>
-               <p>L: 37&#176;</p>
-            </div>
          </div>
       </div>
 

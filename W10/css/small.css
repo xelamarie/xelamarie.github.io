@@ -1,0 +1,399 @@
+html {
+   background-color: #86A5AE;
+}
+
+body {
+   min-width: 350px;
+}
+
+.banner {
+   background-color: #F3D39B;
+   margin: auto;
+   max-width: 960px;
+   padding: 20px 0;
+   text-align: center;
+   font-size: 20px;
+   font-family: "Lora", Arial, serif;
+   display: none;
+}
+
+.wrap {
+   max-width: 960px;
+   margin: 0 auto;
+   padding: 1em;
+   box-sizing: border-box;
+}
+
+main.wrap {
+   background-color: #FFF5EE;
+}
+
+header .wrap {
+   background-color: #3A405A;
+   border-right: 16px solid #FFF5EE;
+   border-left: 16px solid #FFF5EE;
+   border-top: 16px solid #FFF5EE;
+   text-align: center;
+}
+
+#logo {
+   width: 80px;
+   padding: 10px;
+}
+
+h1,
+h2,
+h3 {
+   font-family: "Montserrat", Garamond, sans-serif;
+}
+
+h1 {
+   color: #FFF5EE;
+   margin-bottom: 0;
+}
+
+.motto {
+   color: #FFF5EE;
+   font-family: "Lora", Arial, serif;
+   font-size: 18px;
+}
+
+nav {
+   line-height: 2em;
+   font-family: "Montserrat", Garamond, sans-serif;
+}
+
+nav ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+nav .wrap {
+   border-right: 16px solid #FFF5EE;
+   border-left: 16px solid #FFF5EE;
+   padding: 10px 0;
+   background-color: #3A405A;
+   text-align: center;
+}
+
+nav ul li {
+   text-align: center;
+}
+
+nav a {
+   font-size: 1em;
+   display: block;
+   height: 100%;
+}
+
+nav a:link,
+nav a:visited {
+   color: #F3D39B;
+   text-decoration: none;
+}
+
+nav a:hover {
+   color: #3A405A;
+   background-color: #86A5AE;
+}
+
+nav ul.hide {
+   display: none;
+}
+
+nav ul li.active {
+   background-color: #ccc;
+}
+
+nav ul li.active a {
+   color: #3A405A;
+}
+
+button {
+   background-color: transparent;
+   border: none;
+   font-size: 1em;
+   color: #F3D39B;
+}
+
+h2,
+h3 {
+   color: #3A405A;
+}
+
+.hero-box {
+   position: relative;
+   background: url('../images/oneida-academy.jpg');
+   background-position: center center;
+   height: 333px;
+}
+
+.weather-summary {
+   list-style-type: none;
+   display: block;
+   position: absolute;
+   background-color: rgba(240, 240, 240, 0.8);
+   font-size: 18px;
+   font-family: "Lora", Arial, serif;
+   padding: 20px;
+   top: 38px;
+   left: 38px;
+}
+
+#currently {
+   text-transform: capitalize;
+}
+
+.summary {
+   font-family: "Montserrat", Garamond, sans-serif;
+   border-bottom: 1px solid;
+   margin-bottom: 5px;
+}
+
+.weather-summary li {
+   padding: 5px;
+}
+
+h4 {
+   margin: 0;
+}
+
+.forecast {
+   font-size: 20px;
+}
+
+.flex-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   font-family: "Lora", Arial, serif;
+   background-color: rgba(58, 64, 90, 0.2);
+   padding: 20px;
+}
+
+.flex-item {
+   text-align: center;
+}
+
+.flex-item p {
+   margin: auto;
+}
+
+.article {
+   border: 1px;
+   background-color: rgba(58, 64, 90, 0.1);
+   font-family: "Lora", Arial, serif;
+   font-size: 19px;
+   padding: 10px 20px;
+   margin-top: 30px;
+}
+
+.article-img {
+   float: none;
+   width: 280px;
+   border: 2px solid #ccc;
+   padding: 10px;
+   margin: 0 10px;
+   box-sizing: border-box;
+   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.map-contact {
+   display: block;
+   justify-content: space-around;
+   font-family: "Lora", Arial, serif;
+   font-size: 19px;
+   padding: 20px;
+   margin-top: 30px;
+   background-color: rgba(58, 64, 90, 0.3);
+   ;
+}
+
+.picture-gallery {
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-gap: 18px;
+}
+
+.picture-gallery img {
+   width: 100%;
+   display: block;
+}
+
+figure {
+   border: 1px #cccccc solid;
+   padding: 4px;
+   margin: auto;
+}
+
+figcaption {
+   background-color: #3A405A;
+   color: #FFF5EE;
+   font-family: "Lora", Arial, serif;
+   padding: 5px;
+   text-align: center;
+}
+
+.last-visit {
+   font-size: 20px;
+   font-family: "Montserrat", Garamond, sans-serif;
+   text-align: center;
+}
+
+.storm,
+.confirmation {
+   color: #3A405A;
+   font-size: 28px;
+}
+
+form fieldset {
+   width: 100%;
+   margin: 2rem 0;
+   border: 1px solid #3A405A;
+   border-radius: 10px;
+   padding: 0 2% 1rem 2%;
+   font-family: "Lora", Arial, serif;
+   box-sizing: border-box;
+}
+
+form legend {
+   color: #3A405A;
+   font-size: 1.25rem;
+   margin: 0 1rem;
+   padding: 0 .5rem;
+}
+
+form label {
+   display: block;
+   padding-top: 1rem;
+   color: #3A405A;
+   font-size: .9rem;
+   line-height: 2;
+}
+
+form label.radio {
+   padding-top: 0;
+}
+
+form label.storm-info input,
+form label.storm-info select,
+form label.user-info input,
+form label.user-info select {
+   display: block;
+   font-size: 1rem;
+   border: solid 1px #999;
+   border-radius: 4px;
+   padding: .75rem;
+   color: #555;
+   width: 100%;
+   box-sizing: border-box;
+   background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.storm-info textarea {
+   width: 100%;
+   box-sizing: border-box;
+}
+
+form button.submitBtn {
+   border: none;
+   display: block;
+   background-color: #3A405A;
+   color: white;
+   border-radius: 1rem;
+   padding: .75rem 1.5rem;
+   margin: 0 auto;
+   width: 96%;
+   max-width: 20rem;
+}
+
+form label.user-info input:required {
+   border: #DA2C38 solid 2px;
+}
+
+form label.user-info input:required:valid {
+   border: #91CB3E solid 2px;
+}
+
+.stay-safe {
+   font-family: "Lora", Arial, serif;
+}
+
+.wireframes li {
+   font-family: "Lora", Arial, serif;
+   padding: 15px;
+}
+
+.hero-img img {
+   width: 100%;
+   height: auto;
+}
+
+.town-info section {
+   margin-top: 15px;
+   padding: 20px;
+   border-radius: 5px;
+   box-shadow: 0 0 5px black;
+}
+
+.town-info {
+   font-family: "Lora", Arial, serif;
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-gap: 15px;
+   text-align: center;
+   color: #3A405A;
+}
+
+.town-info img {
+   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+   width: 100%;
+   max-width: 300px;
+   height: auto;
+}
+
+.town-info section:nth-child(2) p:nth-child(3) {
+   padding-top: 22px;
+}
+
+.activities {
+   color: #3A405A;
+   background-color: rgba(243, 211, 155, 0.4);
+   font-family: "Lora", Arial, serif;
+   border: dashed #F3D39B;
+   border-radius: 5px;
+   padding: 10px;
+   margin-top: 20px;
+}
+
+.activities li {
+   margin: 0 0 10px 0;
+}
+
+.map-img {
+   border: 2px solid #FFF5EE;
+   width: 200px;
+   margin-right: 10px;
+}
+
+.contact h4 {
+   font-family: "Montserrat", Garamond, sans-serif;
+   margin: 0;
+   padding: 20px 0;
+}
+
+.contact p {
+   margin: 5px 0;
+}
+
+footer {
+   text-align: center;
+   font-family: "Lora", Arial, serif;
+   line-height: 1.5;
+   color: #FFF5EE;
+}
+
+footer .wrap {
+   background-color: #3A405A;
+}

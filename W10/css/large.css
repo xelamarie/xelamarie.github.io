@@ -1,0 +1,41 @@
+@media only screen and (min-width: 64em) {
+
+   nav button {
+      display: none;
+   }
+
+   .article-img {
+      float: right;
+      width: 360px;
+   }
+
+   .picture-gallery {
+      grid-template-columns: repeat(3, 1fr);
+   }
+
+   .picture-gallery figure:hover {
+      box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.5);
+   }
+
+   .town-info {
+      grid-template-columns: repeat(3, 1fr);
+   }
+
+   .town-info section {
+      display: block;
+   }
+
+   .info {
+      max-width: 100%;
+      margin: 0;
+   }
+
+   .map-contact {
+      display: flex;
+   }
+
+   .map-img {
+      width: 364px;
+   }
+
+}
