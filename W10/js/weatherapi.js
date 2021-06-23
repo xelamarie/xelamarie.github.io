@@ -34,6 +34,8 @@ fetch(apiURL2)
          });
          image.setAttribute('src', 'https://openweathermap.org/img/wn/' + forecasts[i].weather[0].icon + '@2x.png');
          image.setAttribute('alt', forecasts[i].weather[0].description);
+         image.setAttribute('height', 64);
+         image.setAttribute('width', 64);
          temp.innerHTML = forecasts[i].main.temp + '&deg F';
 
          card.className = 'flex-item';
