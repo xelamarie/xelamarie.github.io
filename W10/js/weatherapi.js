@@ -32,7 +32,7 @@ fetch(apiURL2)
          h4.textContent = new Date(forecasts[i].dt_txt).toLocaleString('en-us', {
             weekday: 'short'
          });
-         image.setAttribute('src', 'https://openweathermap.org/img/wn/' + forecasts[i].weather[0].icon + '.png');
+         image.setAttribute('src', 'https://openweathermap.org/img/wn/' + forecasts[i].weather[0].icon + '@2x.png');
          image.setAttribute('alt', forecasts[i].weather[0].description);
          image.setAttribute('height', 64);
          image.setAttribute('width', 64);

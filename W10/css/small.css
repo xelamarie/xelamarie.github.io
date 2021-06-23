@@ -157,7 +157,7 @@ h3 {
 
 .forecast .flex-item img {
    width: 64px;
-   height: 64px;
+   height: auto;
 }
 
 h4 {
