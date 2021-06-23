@@ -2,7 +2,6 @@ const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units
 fetch(apiURL)
    .then((response) => response.json())
    .then((jsObject) => {
-      console.log(jsObject);
       document.getElementById('currently').textContent = jsObject.weather[0].description;
       document.getElementById('current-temp').textContent = jsObject.main.temp;
       document.getElementById('humidity').textContent = jsObject.main.humidity;
@@ -20,7 +19,6 @@ const apiURL2 = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&uni
 fetch(apiURL2)
    .then((response) => response.json())
    .then((jsObject) => {
-      console.log(jsObject);
       const forecasts = jsObject.list.filter((item) => item.dt_txt.includes('18:00:00'));
 
       for (let i = 0; i < forecasts.length; i++) {
