@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <meta name="author" content="Shayla Nelson" />
+   <meta name="description" content="Want to report a storm in your area? We would love to know about it!" />
+   <title>Storm Center</title>
+   <link rel="shortcut icon" href="images/favicon.ico" />
+   <link rel="stylesheet" href="css/normalize.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora&family=Montserrat&display=swap" />
+   <link rel="stylesheet" href="css/small.css" />
+   <link rel="stylesheet" href="css/medium.css" />
+   <link rel="stylesheet" href="css/large.css" />
+   <script src="js/scripts.js" defer></script>
+   <script src="js/stormcenter.js" defer></script>
+</head>
+
+<body>
+
+   <header>
+      <div class="wrap">
+         <img id="logo" src="images/umbrella.png" alt="Umbrella" />
+         <div>
+            <h1>Winds in the East</h1>
+            <div class="motto">...somethin' is brewin' and 'bout to begin</div>
+         </div>
+      </div>
+   </header>
+
+   <nav>
+      <div class="wrap">
+         <button class="menu-button">&#9776; MENU</button>
+         <ul class="primary-nav hide">
+            <li><a href="./">HOME</a></li>
+            <li><a href="preston-10.html">PRESTON</a></li>
+            <li><a href="#">SODA SPRINGS</a></li>
+            <li><a href="#">FISH HAVEN</a></li>
+            <li class="active"><a href="stormcenter.html">STORM CENTER</a></li>
+            <li><a href="gallery-7.html">GALLERY</a></li>
+         </ul>
+      </div>
+   </nav>
+
+
+   <main class="wrap">
+      <h1 class="storm">Report a Storm or Unusual Weather Event</h1>
+      <form action="thanks.html">
+         <div class="inner-form">
+            <fieldset name="user">
+               <legend>User Information</legend>
+               <label class="user-info">Full Name* <input type="text" name="fullname" placeholder="Full Name"
+                     pattern="[A-Za-z\s]{5,}" required></label>
+               <label class="user-info">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
+               <label class="user-info">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+               <label class="user-info">Zip Code* <input type="number" name="zip" placeholder="12345" required></label>
+            </fieldset>
+
+            <fieldset name="storm">
+               <legend>Storm Information</legend>
+               <label class="storm-info">Storm Date <input type="date" name="stormdate"></label>
+
+               <label class="storm-info">Storm Type <input list="storm-type" name="stormtype"></label>
+               <datalist id="storm-type">
+                  <option value="Flash Flood"></option>
+                  <option value="Hail"></option>
+                  <option value="Hurricane"></option>
+                  <option value="Thunderstorm"></option>
+                  <option value="Tornado"></option>
+               </datalist>
+
+               <label>Storm Severity
+                  <br>
+                  <input type="range" name="rating" value="5" min="1" max="10" step="1" list="tickmarks"
+                     oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                  <span id="ratingvalue">5</span>
+               </label>
+               <datalist id="tickmarks">
+                  <option value="0">
+                  <option value="1">
+                  <option value="2">
+                  <option value="3">
+                  <option value="4">
+                  <option value="5">
+                  <option value="6">
+                  <option value="7">
+                  <option value="8">
+                  <option value="9">
+                  <option value="10">
+               </datalist>
+
+               <label class="storm-info">Storm Region
+                  <select name="region">
+                     <option value="select" selected disabled>Select Region...</option>
+                     <option value="preston">Preston</option>
+                     <option value="ssprings">Soda Springs</option>
+                     <option value="fhaven">Fish Haven</option>
+                  </select>
+               </label>
+
+               <label class="storm-info">Are You In Danger? </label>
+               <label class="radio"><input type="radio" name="danger" value="yes"> Yes</label>
+               <label class="radio"><input type="radio" name="danger" value="maybe"> Maybe</label>
+               <label class="radio"><input type="radio" name="danger" value="no"> No</label>
+
+
+               <label class="storm-info">Additional Information or Comments: <br><textarea name="comment" rows="5"
+                     cols="50"></textarea></label>
+            </fieldset>
+         </div>
+
+         <button type="submit" name="submit" class="submitBtn">Report Storm</button>
+      </form>
+   </main>
+
+   <footer>
+      <p class="wrap">
+         &copy; <span class="current-year"></span> Winds in the East | Shayla
+         Nelson
+         <br />
+         <span class="today-date"> </span>
+      </p>
+   </footer>
+
+</body>
+
+</html>
