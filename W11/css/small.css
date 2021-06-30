@@ -398,17 +398,24 @@ form label.user-info input:required:valid {
 }
 
 .activities {
-   color: #3A405A;
-   background-color: rgba(243, 211, 155, 0.4);
+   color: #FFF5EE;
+   background-color: #3A405A;
    font-family: "Lora", Arial, serif;
-   border: dashed #F3D39B;
-   border-radius: 5px;
    padding: 10px;
    margin-top: 20px;
 }
 
 .activities li {
    margin: 0 0 10px 0;
+   line-height: 1.5;
+}
+
+.activities h3 {
+   color: #FFF5EE;
+}
+
+.activities a {
+   color: #F3D39B;
 }
 
 .map-img {
