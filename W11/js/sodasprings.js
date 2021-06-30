@@ -3,3 +3,4 @@ const sodaSpringsForecast = 'https://api.openweathermap.org/data/2.5/forecast?id
 
 getWeatherSummary(sodaSpringsSummary);
 getForecast(sodaSpringsForecast);
+getEventList('Soda Springs');

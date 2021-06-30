@@ -9,3 +9,4 @@ const prestonForecast = 'https://api.openweathermap.org/data/2.5/forecast?id=560
 
 getWeatherSummary(prestonSummary);
 getForecast(prestonForecast);
+getEventList('Preston');
