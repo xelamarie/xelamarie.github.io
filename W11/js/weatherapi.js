@@ -28,7 +28,7 @@ function getForecast(apiURL) {
             let image = document.createElement('img');
             let temp = document.createElement('p');
 
-            h4.textContent = new Date(forecasts[i].dt_txt).toLocaleString('en-us', {
+            h4.textContent = new Date(forecasts[i].dt*1000).toLocaleString('en-us', {
                weekday: 'short'
             });
             image.setAttribute('src', 'https://openweathermap.org/img/wn/' + forecasts[i].weather[0].icon + '@2x.png');
