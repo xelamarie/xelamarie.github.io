@@ -412,6 +412,7 @@ form label.user-info input:required:valid {
 
 .activities h3 {
    color: #FFF5EE;
+   padding-left: 1em;
 }
 
 .activities a {
