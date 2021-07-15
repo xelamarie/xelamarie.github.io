@@ -526,6 +526,10 @@ form label.radio {
    font-size: 20px;
 }
 
+.cards.list p {
+   margin-left: 20px;
+}
+
 
 /* Contact Page Styles */
 .contact-grid {
@@ -562,7 +566,12 @@ form label.radio {
    line-height: 1.5em;
 }
 
-.contact-form form label.info input, .contact-form form label.info textarea {
+.contact-form {
+   padding: 0 20px;
+}
+
+.contact-form form label.info input,
+.contact-form form label.comment textarea {
    width: 100%;
 }
 
@@ -580,7 +589,7 @@ form label.radio {
 }
 
 .map {
-   padding-top: 40px;
+   padding: 40px 20px;
 }
 
 
