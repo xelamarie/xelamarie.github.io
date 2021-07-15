@@ -1,5 +1,4 @@
-@media only screen and (min-width: 32.5em) {
-
+@media only screen and (min-width: 768px) {
 
    nav ul,
    nav ul.hide {
@@ -23,15 +22,74 @@
       grid-template-columns: 1fr 1fr;
    }
 
+   .hero-box {
+      height: 320px;
+   }
+
+   .weather-summary,
+   .weather-forecast {
+      position: absolute;
+      top: 40px;
+   }
+
+   .weather-summary {
+      right: 400px;
+   }
+   
+   .weather-forecast {
+      right: 150px;
+   }
+
+   .spotlights-title {
+      grid-column: 1 / 2;
+      grid-row: auto;
+   }
+
+   .events-title {
+      grid-column: 2 / 3;
+      grid-row: auto;
+   }
+
+   .company-1 {
+      grid-column: 1 / 2;
+      grid-row: auto;
+   }
+
+   .event-1 {
+      grid-column: 2 / 3;
+      grid-row: auto;
+   }
+
+   .company-2 {
+      grid-column: 1 / 2;
+      grid-row: auto;
+   }
+
+   .event-2 {
+      grid-column: 2 / 3;
+      grid-row: auto;
+   }
+
+   .company-3 {
+      grid-column: 1 / 2;
+      grid-row: auto;
+   }
+
+   .event-3 {
+      grid-column: 2 / 3;
+      grid-row: auto;
+   }
+
+
    .city-grid {
-      grid-template-columns: 1fr 1fr; 
+      grid-template-columns: 1fr 1fr;
    }
 
    .cards {
-         grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
    }
 
    .contact-grid {
-      grid-template-columns: 1fr 1fr; 
+      grid-template-columns: 1fr 1fr;
    }
 }

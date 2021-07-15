@@ -59,6 +59,10 @@ nav ul li {
    text-align: center;
 }
 
+nav ul.hide {
+   display: none;
+}
+
 nav a {
    font-size: 1em;
    display: flex;
@@ -93,7 +97,6 @@ nav ul li.active a {
    background-size: cover;
    background-position: center;
    max-width: 100%;
-   height: 320px;
    padding: 3em;
    box-sizing: border-box;
 }
@@ -102,21 +105,11 @@ nav ul li.active a {
 .weather-forecast {
    list-style-type: none;
    display: block;
-   position: absolute;
    background-color: rgba(48, 48, 135, 0.4);
    color: #FBF3F0;
    font-size: 18px;
    font-family: "Merriweather", Arial, serif;
    padding: 20px;
-   top: 40px;
-}
-
-.weather-summary {
-   right: 400px;
-}
-
-.weather-forecast {
-   right: 150px;
 }
 
 #currently {
@@ -199,6 +192,7 @@ nav ul li.active a {
    font-family: "Lato", Garamond, sans-serif;
    padding: 10px 15px;
    grid-column: 1 / 2;
+   grid-row: 1 / 2;
 }
 
 .events-title {
@@ -206,37 +200,50 @@ nav ul li.active a {
    background-color: #D58936;
    font-family: "Lato", Garamond, sans-serif;
    padding: 10px 15px;
-   grid-column: 2 / 3;
+   grid-column: 1 / 2;
+   grid-row: 5 / 6;
 }
 
 .company-1 {
    display: flex;
+   flex-direction: column;
    grid-column: 1 / 2;
+   grid-row: 2 / 3;
 }
 
 .event-1 {
    display: flex;
-   grid-column: 2 / 3;
+   flex-direction: column;
+   grid-column: 1 / 2;
+   grid-row: 6 / 7;
 }
 
 .company-2 {
    display: flex;
+   flex-direction: column;
    grid-column: 1 / 2;
+   grid-row: 3 / 4;
 }
 
 .event-2 {
    display: flex;
-   grid-column: 2 / 3;
+   flex-direction: column;
+   grid-column: 1 / 2;
+   grid-row: 7 / 8;
 }
 
 .company-3 {
    display: flex;
+   flex-direction: column;
    grid-column: 1 / 2;
+   grid-row: 4 / 5;
 }
 
 .event-3 {
    display: flex;
-   grid-column: 2 / 3;
+   flex-direction: column;
+   grid-column: 1 / 2;
+   grid-row: 8 / 9;
 }
 
 .contact {
@@ -295,7 +302,8 @@ nav ul li.active a {
 }
 
 .join-button,
-.contact-button, nav button {
+.contact-button,
+nav button {
    font-family: "Lato", Garamond, sans-serif;
    border: none;
    display: block;
@@ -343,6 +351,10 @@ nav ul li.active a {
 
 .gallery h3 {
    padding-bottom: 25px;
+}
+
+.gallery img {
+   width: calc(50% - 20px);
 }
 
 .demographics,
@@ -412,11 +424,9 @@ form label.radio {
    font-family: "Lato", Garamond, sans-serif;
    color: #FBF3F0;
    background-color: #D58936;
-   width: 40%;
-   margin: auto;
-   padding: 5px 0;
    border: solid 1px #4A5FC1;
    border-radius: 4px;
+   padding: 10px;
 }
 
 
@@ -550,6 +560,10 @@ form label.radio {
    font-size: 12px;
    padding: 20px 0;
    line-height: 1.5em;
+}
+
+.contact-form form label.info input, .contact-form form label.info textarea {
+   width: 100%;
 }
 
 .contact-details {

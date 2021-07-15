@@ -1,11 +1,40 @@
-@media only screen and (min-width: 64em) {
+@media only screen and (min-width: 992px) {
 
    nav button {
       display: none;
    }
 
+   .company-1 {
+      flex-direction: row;
+   }
+
+   .event-1 {
+      flex-direction: row;
+   }
+
+   .company-2 {
+      flex-direction: row;
+   }
+
+   .event-2 {
+      flex-direction: row;
+   }
+
+   .company-3 {
+      flex-direction: row;
+   }
+
+   .event-3 {
+      flex-direction: row;
+   }
+
    .city-grid {
       grid-template-columns: 1fr 1fr 1fr;
+   }
+
+   .benefits {
+      width: 40%;
+      margin: auto;
    }
 
    .cards {
