@@ -1,0 +1,37 @@
+@media only screen and (min-width: 32.5em) {
+
+
+   nav ul,
+   nav ul.hide {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+   }
+
+   nav ul li a {
+      padding: 0 20px;
+      white-space: nowrap;
+   }
+
+   nav button {
+      display: none;
+   }
+
+   .main-grid {
+      grid-template-columns: 1fr 1fr;
+   }
+
+   .city-grid {
+      grid-template-columns: 1fr 1fr; 
+   }
+
+   .cards {
+         grid-template-columns: 1fr 1fr;
+   }
+
+   .contact-grid {
+      grid-template-columns: 1fr 1fr; 
+   }
+}

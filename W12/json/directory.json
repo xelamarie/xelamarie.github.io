@@ -1,0 +1,66 @@
+{
+   "businesses": [{
+         "name": "Idaho Mountain Touring",
+         "address": "1739 W Cherry Lane, Meridian, ID 83642",
+         "phone": "(208) 350-6455",
+         "logo": "./images/idaho-mountain-logo.jpg",
+         "url": "https://www.idahomountaintouring.com/"
+      },
+      {
+         "name": "Epi's Basque Restaurant",
+         "address": "1115 N Main St, Meridian, ID 83642",
+         "phone": "(208) 884-0142",
+         "logo": "./images/epis-basque-logo.png",
+         "url": "https://www.episabasquerestaurant.com/"
+      },
+      {
+         "name": "Le Peep",
+         "address": "3036 North Eagle Road, Meridian, ID 83646",
+         "phone": "(208) 629-0155",
+         "logo": "./images/le-peep-logo.jpg",
+         "url": "https://lepeep.com/"
+      },
+      {
+         "name": "Better Life Chiropractic",
+         "address": "1220 N Meridian Rd Ste A Meridian, ID 83642",
+         "phone": "(208) 884-5000",
+         "logo": "./images/better-life-logo.png",
+         "url": "https://www.betterlifechiro.net/"
+      },
+      {
+         "name": "Fast Eddy's",
+         "address": "3775 N. Eagle Road, Meridian, ID 83646",
+         "phone": "(208) 855-2232",
+         "logo": "./images/fast-eddys-logo.jpg",
+         "url": "https://www.fasteddys.com/"
+      },
+      {
+         "name": "Johnny Bronx Pizza",
+         "address": "4970 N Linder Rd, Meridian, ID 83646",
+         "phone": "(208) 249-6164",
+         "logo": "./images/johnny-bronx-logo.png",
+         "url": "https://johnnybronx-online-ordering.brygid.online/zgrid/themes/13402/intro/"
+      },
+      {
+         "name": "Body Calm Studio",
+         "address": "1565 E. Leighfield Drive, Suite 175, Meridian, ID 83646",
+         "phone": "(208) 914-0910",
+         "logo": "./images/body-calm-logo.png",
+         "url": "https://bodycalmstudio.com/"
+      },
+      {
+         "name": "Dunkley Music",
+         "address": "3410 N Eagle Rd, Meridian, ID 83646",
+         "phone": "(208) 906-1901",
+         "logo": "./images/dunkley-music-logo.png",
+         "url": "https://www.dunkleymusic.com/"
+      },
+      {
+         "name": "Fat Guys Fresh Deli",
+         "address": "1626 South Wells Ave. Meridian, ID 83642",
+         "phone": "(208) 855-0424",
+         "logo": "./images/fat-guys-logo.png",
+         "url": "https://fatguysfreshdeli.com"
+      }
+   ]
+}

@@ -1,0 +1,159 @@
+html {
+   background-color: #303087;
+}
+
+body {
+   max-width: 960px;
+   margin: 0 auto;
+   background-color: #FBF3F0;
+   padding: 1em;
+}
+
+h1,
+h2,
+h3 {
+   font-family: "Lato", Garamond, sans-serif;
+}
+
+h1 {
+   color: #FBF3F0;
+}
+
+header h2 {
+   color: #FBF3F0;
+}
+
+main h2 {
+   background-color: #D58936;
+   color: #FBF3F0;
+   padding: 5px;
+}
+
+header {
+   padding: 1em;
+   text-align: center;
+   background-color: #4A5FC1;
+}
+
+
+nav {
+   line-height: 2em;
+   font-family: "Lato", Garamond, sans-serif;
+}
+
+nav ul {
+   list-style: none;
+   display: grid;
+   grid-template-columns: 1fr;
+   padding: 0;
+}
+
+nav ul li {
+   text-align: center;
+}
+
+nav a {
+   font-size: 1em;
+   padding: 1em;
+}
+
+nav a:link,
+nav a:visited {
+   color: #F3D39B;
+   text-decoration: none;
+}
+
+nav a:hover {
+   color: #303087;
+   background-color: #D58936;
+}
+
+p,
+li,
+h3 {
+   font-family: "Merriweather", Arial, serif;
+   color: #555555;
+   padding-left: 5px;
+}
+
+#logo {
+   display: block;
+}
+
+footer {
+   border-top: .5px solid #A44200;
+   text-align: center;
+}
+
+footer a:link,
+a:visited {
+   color: #A44200;
+}
+
+#palette {
+   width: 300px;
+}
+
+.colors {
+   width: 100%;
+   min-width: 350px;
+   margin: auto;
+   text-align: center;
+}
+
+.colors th {
+   background-color: #999;
+}
+
+.colors td {
+   width: 20%;
+   height: 3em;
+}
+
+.primary {
+   background-color: #303087;
+   color: #FBF3F0;
+}
+
+.secondary {
+   background-color: #4A5FC1;
+   color: #FBF3F0;
+}
+
+.accent1 {
+   background-color: #FBF3F0;
+}
+
+.accent2 {
+   background-color: #A44200;
+   color: #FBF3F0;
+}
+
+.accent3 {
+   background-color: #D58936;
+   color: #FBF3F0;
+}
+
+.color-details li,
+.scenarios li {
+   padding: 5px;
+   font-family: "Merriweather", Arial, serif;
+}
+
+.lato p {
+   font-family: "Lato", Garamond, sans-serif;
+   font-size: 18px;
+}
+
+.lato h3 {
+   font-family: "Lato", Garamond, sans-serif;
+   font-size: 22px;
+}
+
+.small-medium {
+   display: flex;
+}
+
+.medium {
+   padding-right: 50px;
+}

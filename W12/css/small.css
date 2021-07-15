@@ -1,0 +1,611 @@
+/* General Styles */
+html {
+   background-color: #303087;
+}
+
+body {
+   min-width: 350px;
+}
+
+h1,
+h2,
+h3 {
+   font-family: "Lato", Garamond, sans-serif;
+}
+
+h1 {
+   color: #FBF3F0;
+   margin-bottom: 0;
+   font-size: 44px;
+}
+
+p {
+   line-height: 1.5;
+}
+
+
+/* Header Styles */
+header {
+   text-align: center;
+}
+
+.motto {
+   color: #FBF3F0;
+   font-family: "Merriweather", Arial, serif;
+   font-size: 18px;
+}
+
+.logo {
+   padding-top: 15px;
+}
+
+
+/* Navigation Styles */
+nav {
+   line-height: 2em;
+   font-family: "Lato", Garamond, sans-serif;
+   padding: 10px 0;
+   background-color: #4A5FC1;
+   text-align: center;
+}
+
+nav ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+nav ul li {
+   text-align: center;
+}
+
+nav a {
+   font-size: 1em;
+   display: flex;
+   height: 100%;
+}
+
+nav a:link,
+nav a:visited {
+   color: #FBF3F0;
+   text-decoration: none;
+}
+
+nav a:hover {
+   color: #FBF3F0;
+   background-color: #D58936;
+}
+
+nav ul li.active {
+   background-color: #A44200;
+}
+
+nav ul li.active a {
+   color: #FBF3F0;
+}
+
+
+/* Home Page Styles */
+.hero-box {
+   position: relative;
+   background-image: url('../images/city-hall-hero1.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   max-width: 100%;
+   height: 320px;
+   padding: 3em;
+   box-sizing: border-box;
+}
+
+.weather-summary,
+.weather-forecast {
+   list-style-type: none;
+   display: block;
+   position: absolute;
+   background-color: rgba(48, 48, 135, 0.4);
+   color: #FBF3F0;
+   font-size: 18px;
+   font-family: "Merriweather", Arial, serif;
+   padding: 20px;
+   top: 40px;
+}
+
+.weather-summary {
+   right: 400px;
+}
+
+.weather-forecast {
+   right: 150px;
+}
+
+#currently {
+   text-transform: capitalize;
+}
+
+.summary,
+.forecast {
+   font-family: "Lato", Garamond, sans-serif;
+   border-bottom: 1px solid;
+   margin-bottom: 5px;
+}
+
+.weather-summary li,
+.weather-forecast li {
+   padding: 5px;
+}
+
+.hidden {
+   display: none;
+}
+
+#alert {
+   background-color: #D58936;
+   color: #FBF3F0;
+   font-size: 20px;
+   font-family: "Merriweather", Arial, serif;
+   text-align: center;
+   padding: 20px 0;
+   width: 100%;
+   border: none;
+}
+
+.purpose {
+   color: #FBF3F0;
+   background-color: #4A5FC1;
+   padding: 5px 25px;
+   font-family: "Lato", Garamond, sans-serif;
+   font-size: 20px;
+   text-align: center;
+}
+
+.purpose h3 {
+   padding: 0;
+}
+
+.main-grid {
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-gap: 2em;
+   background-color: #FBF3F0;
+   color: #A44200;
+   font-family: "Merriweather", Arial, serif;
+   margin: 20px 50px;
+}
+
+.event-image-1,
+.event-image-2,
+.event-image-3,
+.company-image-1,
+.company-image-2,
+.company-image-3 {
+   padding: 0 0 20px 15px;
+}
+
+.company-1-info,
+.company-2-info,
+.company-3-info,
+.event-1-info,
+.event-2-info,
+.event-3-info {
+   padding: 0 20px;
+   text-align: center;
+   font-size: 15px;
+}
+
+.spotlights-title {
+   color: #FBF3F0;
+   background-color: #D58936;
+   font-family: "Lato", Garamond, sans-serif;
+   padding: 10px 15px;
+   grid-column: 1 / 2;
+}
+
+.events-title {
+   color: #FBF3F0;
+   background-color: #D58936;
+   font-family: "Lato", Garamond, sans-serif;
+   padding: 10px 15px;
+   grid-column: 2 / 3;
+}
+
+.company-1 {
+   display: flex;
+   grid-column: 1 / 2;
+}
+
+.event-1 {
+   display: flex;
+   grid-column: 2 / 3;
+}
+
+.company-2 {
+   display: flex;
+   grid-column: 1 / 2;
+}
+
+.event-2 {
+   display: flex;
+   grid-column: 2 / 3;
+}
+
+.company-3 {
+   display: flex;
+   grid-column: 1 / 2;
+}
+
+.event-3 {
+   display: flex;
+   grid-column: 2 / 3;
+}
+
+.contact {
+   background-color: #D58936;
+   text-align: center;
+   grid-column: 1 / 2;
+   padding: 0 10px;
+}
+
+.contact h4 {
+   color: #FBF3F0;
+   font-family: "Lato", Garamond, sans-serif;
+   font-size: 24px;
+   margin: 0;
+   padding: 20px;
+}
+
+.contact p {
+   color: #FBF3F0;
+   margin: 5px 0;
+}
+
+.social {
+   padding-bottom: 10px;
+}
+
+.contact-join {
+   display: grid;
+   grid-gap: 1em;
+   grid-template-columns: 1fr 1fr;
+   font-family: "Merriweather", Arial, serif;
+   font-size: 19px;
+   margin: 30px;
+}
+
+.join {
+   background-color: #FBF3F0;
+   color: #A44200;
+   grid-column: 2 / 3;
+   text-align: center;
+   margin-right: 20px;
+   padding: 0 10px;
+}
+
+.join h4 {
+   font-family: "Lato", Garamond, sans-serif;
+   font-size: 24px;
+}
+
+.join-header {
+   color: #FBF3F0
+}
+
+.join a {
+   text-decoration: none;
+}
+
+.join-button,
+.contact-button, nav button {
+   font-family: "Lato", Garamond, sans-serif;
+   border: none;
+   display: block;
+   background-color: #A44200;
+   color: #FBF3F0;
+   padding: .75rem 1.5rem;
+   margin: 2rem auto;
+   width: 96%;
+   max-width: 20rem;
+   text-align: center;
+}
+
+
+/* City Page Styles */
+.hero-img {
+   width: 100%;
+}
+
+.city-grid {
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-gap: 1em;
+   background-color: #FBF3F0;
+   color: #A44200;
+   font-family: "Merriweather", Arial, serif;
+   margin: 20px 50px;
+}
+
+.demographics,
+.current-events {
+   font-family: "Merriweather", Arial, serif;
+   font-size: 20px;
+   color: #A44200;
+   text-align: left;
+   line-height: 2;
+}
+
+.gallery {
+   font-family: "Merriweather", Arial, serif;
+   font-size: 20px;
+   color: #A44200;
+   text-align: left;
+   padding: 0 20px 25px 20px;
+}
+
+.gallery h3 {
+   padding-bottom: 25px;
+}
+
+.demographics,
+.current-events {
+   padding: 0 20px;
+}
+
+.demographics ul,
+.current-events ul {
+   position: relative;
+   list-style: square;
+}
+
+.current-events li p {
+   font-style: italic;
+   font-size: 18px;
+}
+
+.city-img {
+   padding-left: 10px;
+}
+
+
+/* Join Page Styles */
+fieldset {
+   border-color: #FBF3F0;
+   border-width: 2px;
+}
+
+form legend {
+   font-family: "Lato", Garamond, sans-serif;
+   color: #FBF3F0;
+   padding: 1.5rem;
+}
+
+form label {
+   font-family: "Merriweather", Arial, serif;
+   color: #FBF3F0;
+   line-height: 2.5;
+}
+
+form label.info input {
+   display: flex;
+   margin: auto;
+   border: solid 1px #D58936;
+   border-radius: 4px;
+   padding: .75rem;
+   width: 40%;
+   box-sizing: border-box;
+   background-color: #FBF3F0;
+}
+
+form label.info input:required {
+   border: #DA2C38 solid 2px;
+}
+
+form label.info input:required:valid {
+   border: #91CB3E solid 2px;
+}
+
+form label.radio {
+   display: block;
+   padding-top: 5px;
+}
+
+.benefits {
+   font-family: "Lato", Garamond, sans-serif;
+   color: #FBF3F0;
+   background-color: #D58936;
+   width: 40%;
+   margin: auto;
+   padding: 5px 0;
+   border: solid 1px #4A5FC1;
+   border-radius: 4px;
+}
+
+
+/* Directory Page Styles */
+.directory-heading {
+   font-family: "Lato", Garamond, sans-serif;
+   color: #FBF3F0;
+   text-align: center;
+   padding-top: 10px;
+}
+
+.directory {
+   background-color: #4A5FC1;
+   padding: 0 20px;
+}
+
+.view {
+   text-align: center;
+}
+
+.view button {
+   font-family: "Merriweather", Arial, serif;
+   border: none;
+   background-color: #FBF3F0;
+   color: #303087;
+   padding: .75rem;
+   margin: .5rem 0 1.5rem 0;
+}
+
+.view button:hover {
+   background-color: #D58936;
+   color: #FBF3F0;
+}
+
+.view.list .list-view {
+   background-color: #D58936;
+   color: #FBF3F0;
+}
+
+.view.grid .grid-view {
+   background-color: #D58936;
+   color: #FBF3F0;
+}
+
+.grid-view {
+   background-color: #D58936;
+   color: #FBF3F0;
+}
+
+.cards {
+   background-color: #A44200;
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-gap: 5px;
+   text-align: center;
+   width: 100%;
+}
+
+.cards img {
+   background-color: #FBF3F0;
+   margin: 20px;
+}
+
+.cards h2 {
+   color: #303087;
+   font-size: 25px;
+   padding-bottom: 20px;
+}
+
+.cards p {
+   font-family: "Merriweather", Arial, serif;
+   color: #A44200;
+}
+
+.cards section {
+   background-color: #FBF3F0;
+   padding: 10px;
+}
+
+.cards.list {
+   grid-template-columns: 1fr;
+   text-align: left;
+}
+
+.cards.list img {
+   display: none;
+}
+
+.cards.list h2,
+.cards.list p {
+   display: inline-block;
+   padding: 6px;
+}
+
+.cards.list h2 {
+   margin-left: 20px;
+   font-size: 20px;
+}
+
+
+/* Contact Page Styles */
+.contact-grid {
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-gap: 2em;
+   background-color: #4A5FC1;
+   font-family: "Merriweather", Arial, serif;
+   margin: 20px 50px;
+}
+
+.directors {
+   padding-right: 25px;
+}
+
+.directors ul,
+.contact-info ul {
+   list-style-type: none;
+}
+
+.directors h3,
+.contact-form h3,
+.contact-info h3 {
+   color: #FBF3F0;
+   font-size: 24px;
+}
+
+.directors li {
+   background-color: #FBF3F0;
+   color: #A44200;
+   font-family: "Merriweather", Arial, serif;
+   font-size: 12px;
+   padding: 20px 0;
+   line-height: 1.5em;
+}
+
+.contact-details {
+   font-family: "Merriweather", Arial, serif;
+   color: #FBF3F0;
+   background-color: #D58936;
+   padding: 20px;
+   margin: 20px;
+}
+
+.contact-details p:nth-child(5) {
+   padding-top: 20px;
+   border-bottom: 1px solid;
+}
+
+.map {
+   padding-top: 40px;
+}
+
+
+/* Footer Styles */
+footer {
+   background-color: #4A5FC1;
+   text-align: center;
+   font-family: "Merriweather", Arial, serif;
+   color: #FBF3F0;
+   padding: 2px;
+}
+
+footer a {
+   color: #FBF3F0;
+}
+
+.last-visit {
+   font-size: 20px;
+   font-family: "Lato", Garamond, sans-serif;
+   text-align: center;
+}
+
+
+/* Confirmation Page Styles */
+.confirmation,
+.thanks {
+   font-family: "Merriweather", Arial, serif;
+   color: #FBF3F0;
+}
+
+/* Attributions Styles */
+.attributions li {
+   font-family: "Merriweather", Arial, serif;
+   color: #FBF3F0;
+   list-style: none;
+   padding: 10px 0;
+}
+
+.attributions a:link,
+.attributions a:visited {
+   color: #D58936;
+}

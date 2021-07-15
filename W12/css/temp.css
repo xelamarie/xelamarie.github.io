@@ -1,0 +1,50 @@
+form fieldset {
+   width: 100%;
+   margin: 2rem 0;
+   border: 1px solid #D58936;
+   border-radius: 10px;
+   padding: 0 2% 1rem 2%;
+   font-family: "Merriweather", Arial, serif;
+   box-sizing: border-box;
+}
+
+form legend {
+   color: #FBF3F0;
+   font-size: 1.25rem;
+   margin: 0 1rem;
+   padding: 0 .5rem;
+}
+
+form label {
+   display: flex;
+   padding-top: 1rem;
+   color: #FBF3F0;
+   font-size: .9rem;
+   line-height: 2;
+}
+
+form label.radio {
+   padding-top: 0;
+}
+
+form label.user-info input,
+form label.user-info select {
+   display: flex;
+   font-size: 1rem;
+   border: solid 1px #D58936;
+   border-radius: 4px;
+   padding: .75rem;
+   color: #D58936;
+   width: 100%;
+   box-sizing: border-box;
+   background-color: #FBF3F0;
+}
+
+
+form label.user-info input:required {
+   border: #DA2C38 solid 2px;
+}
+
+form label.user-info input:required:valid {
+   border: #91CB3E solid 2px;
+}
