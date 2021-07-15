@@ -187,7 +187,7 @@ nav ul li.active a {
 }
 
 .spotlights-title {
-   color: #FBF3F0;
+   color: white;
    background-color: #D58936;
    font-family: "Lato", Garamond, sans-serif;
    padding: 10px 15px;
@@ -196,7 +196,7 @@ nav ul li.active a {
 }
 
 .events-title {
-   color: #FBF3F0;
+   color: white;
    background-color: #D58936;
    font-family: "Lato", Garamond, sans-serif;
    padding: 10px 15px;
@@ -254,7 +254,7 @@ nav ul li.active a {
 }
 
 .contact h4 {
-   color: #FBF3F0;
+   color: white;
    font-family: "Lato", Garamond, sans-serif;
    font-size: 24px;
    margin: 0;
@@ -262,7 +262,7 @@ nav ul li.active a {
 }
 
 .contact p {
-   color: #FBF3F0;
+   color: white;
    margin: 5px 0;
 }
 

@@ -35,7 +35,7 @@
    .weather-summary {
       right: 400px;
    }
-   
+
    .weather-forecast {
       right: 150px;
    }
@@ -79,7 +79,6 @@
       grid-column: 2 / 3;
       grid-row: auto;
    }
-
 
    .city-grid {
       grid-template-columns: 1fr 1fr;
