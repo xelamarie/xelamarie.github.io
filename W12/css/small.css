@@ -8,8 +8,7 @@ body {
 }
 
 h1,
-h2,
-h3 {
+h2 {
    font-family: "Lato", Garamond, sans-serif;
 }
 
@@ -152,7 +151,7 @@ nav ul li.active a {
    text-align: center;
 }
 
-.purpose h3 {
+.purpose h2 {
    padding: 0;
 }
 
@@ -349,7 +348,7 @@ nav button {
    padding: 0 20px 25px 20px;
 }
 
-.gallery h3 {
+.gallery h2 {
    padding-bottom: 25px;
 }
 
@@ -554,9 +553,9 @@ form label.radio {
    list-style-type: none;
 }
 
-.directors h3,
-.contact-form h3,
-.contact-info h3 {
+.directors h2,
+.contact-form h2,
+.contact-info h2 {
    color: #FBF3F0;
    font-size: 24px;
 }
