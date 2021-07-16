@@ -368,6 +368,10 @@ nav button {
    list-style: square;
 }
 
+.demographics ul li:nth-child(3n+3) {
+   padding-bottom: 40px;
+}
+
 .current-events li p {
    font-style: italic;
    font-size: 18px;
